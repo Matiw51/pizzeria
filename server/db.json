@@ -1,0 +1,459 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Pepperoni",
+      "ingredients": "Pepperoni pepper, salami pepperoni",
+      "type": "pizza",
+      "price": "18.00",
+      "available": false
+    },
+    {
+      "id": 2,
+      "name": "Capriciosa",
+      "ingredients": "puffer fish, old socks, broken dreams",
+      "type": "pizza",
+      "price": "23.50",
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Crazy Spaghetti",
+      "ingredients": "spaghetti bolognese with additional bananas and chocolate",
+      "type": "pasta",
+      "price": "20.00",
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Mojito",
+      "ingredients": "mint, lime, rum, brown sugar",
+      "type": "drink",
+      "price": "15.00",
+      "available": false
+    },
+    {
+      "id": 6,
+      "name": "Capriciosa",
+      "ingredients": "puffer fish, old socks, broken dreams",
+      "type": "pizza",
+      "price": "23.50",
+      "available": false
+    },
+    {
+      "id": 7,
+      "name": "Mojito",
+      "ingredients": "mint, lime, rum, brown sugar",
+      "type": "drink",
+      "price": "15.00",
+      "available": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "fullName": "",
+      "address": "",
+      "phoneNumber": "",
+      "totalCost": "50.00",
+      "items": [
+        {
+          "id": 3,
+          "name": "Crazy Spaghetti",
+          "ingredients": "spaghetti bolognese with additional bananas and chocolate",
+          "type": "pasta",
+          "price": "20.00"
+        },
+        {
+          "id": 5,
+          "name": "Mojito",
+          "ingredients": "mint, lime, rum, brown sugar",
+          "type": "drink",
+          "price": "15.00"
+        },
+        {
+          "id": 5,
+          "name": "Mojito",
+          "ingredients": "mint, lime, rum, brown sugar",
+          "type": "drink",
+          "price": "15.00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "dasda",
+      "address": "dasda",
+      "phoneNumber": "123",
+      "totalCost": "54.00",
+      "items": [
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "ingredients": "Pepperoni pepper, salami pepperoni",
+          "type": "pizza",
+          "price": "18.00"
+        },
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "ingredients": "Pepperoni pepper, salami pepperoni",
+          "type": "pizza",
+          "price": "18.00"
+        },
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "ingredients": "Pepperoni pepper, salami pepperoni",
+          "type": "pizza",
+          "price": "18.00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullName": "Mateusz Wasilewski",
+      "address": "Zielona 10",
+      "phoneNumber": "123654456",
+      "totalCost": "91.50",
+      "items": [
+        {
+          "id": 5,
+          "name": "Mojito",
+          "ingredients": "mint, lime, rum, brown sugar",
+          "type": "drink",
+          "price": "15.00",
+          "available": true
+        },
+        {
+          "id": 5,
+          "name": "Mojito",
+          "ingredients": "mint, lime, rum, brown sugar",
+          "type": "drink",
+          "price": "15.00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "name": "Crazy Spaghetti",
+          "ingredients": "spaghetti bolognese with additional bananas and chocolate",
+          "type": "pasta",
+          "price": "20.00",
+          "available": false
+        },
+        {
+          "id": 2,
+          "name": "Capriciosa",
+          "ingredients": "puffer fish, old socks, broken dreams",
+          "type": "pizza",
+          "price": "23.50",
+          "available": true
+        },
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "ingredients": "Pepperoni pepper, salami pepperoni",
+          "type": "pizza",
+          "price": "18.00",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullName": "dasdasdasdasd",
+      "address": "adasdasdasdasd",
+      "phoneNumber": "231212312312",
+      "price": "127.50",
+      "items": [
+        {
+          "id": 5,
+          "name": "Mojito",
+          "ingredients": "mint, lime, rum, brown sugar",
+          "type": "drink",
+          "price": "15.00",
+          "available": true
+        },
+        {
+          "id": 5,
+          "name": "Mojito",
+          "ingredients": "mint, lime, rum, brown sugar",
+          "type": "drink",
+          "price": "15.00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "name": "Crazy Spaghetti",
+          "ingredients": "spaghetti bolognese with additional bananas and chocolate",
+          "type": "pasta",
+          "price": "20.00",
+          "available": false
+        },
+        {
+          "id": 2,
+          "name": "Capriciosa",
+          "ingredients": "puffer fish, old socks, broken dreams",
+          "type": "pizza",
+          "price": "23.50",
+          "available": true
+        },
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "ingredients": "Pepperoni pepper, salami pepperoni",
+          "type": "pizza",
+          "price": "18.00",
+          "available": false
+        },
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "ingredients": "Pepperoni pepper, salami pepperoni",
+          "type": "pizza",
+          "price": "18.00",
+          "available": false
+        },
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "ingredients": "Pepperoni pepper, salami pepperoni",
+          "type": "pizza",
+          "price": "18.00",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullName": "asdasdasd",
+      "address": "dasdas",
+      "phoneNumber": "3123123123123",
+      "totalCost": "0.00"
+    },
+    {
+      "id": 6,
+      "fullName": "Wielki Ptak",
+      "address": "Sezamkowa 10",
+      "phoneNumber": "632976456",
+      "totalCost": "43.50",
+      "items": [
+        {
+          "id": 3,
+          "name": "Crazy Spaghetti",
+          "ingredients": "spaghetti bolognese with additional bananas and chocolate",
+          "type": "pasta",
+          "price": "20.00",
+          "available": false
+        },
+        {
+          "id": 2,
+          "name": "Capriciosa",
+          "ingredients": "puffer fish, old socks, broken dreams",
+          "type": "pizza",
+          "price": "23.50",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullName": "dasd",
+      "address": "dasdas",
+      "phoneNumber": "213123",
+      "totalCost": "0.00"
+    },
+    {
+      "id": 8,
+      "fullName": "dasd",
+      "address": "dasdas",
+      "phoneNumber": "3123123",
+      "totalCost": "0.00"
+    },
+    {
+      "id": 9,
+      "fullName": "dasdas",
+      "address": "dasa",
+      "phoneNumber": "12312",
+      "price": "23.50",
+      "items": [
+        {
+          "id": 2,
+          "name": "Capriciosa",
+          "ingredients": "puffer fish, old socks, broken dreams",
+          "type": "pizza",
+          "price": "23.50",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fullName": "add",
+      "address": "dasd",
+      "phoneNumber": "12312",
+      "totalCost": "60.00",
+      "items": [
+        {
+          "id": 3,
+          "name": "Crazy Spaghetti",
+          "ingredients": "spaghetti bolognese with additional bananas and chocolate",
+          "type": "pasta",
+          "price": "20.00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "name": "Crazy Spaghetti",
+          "ingredients": "spaghetti bolognese with additional bananas and chocolate",
+          "type": "pasta",
+          "price": "20.00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "name": "Crazy Spaghetti",
+          "ingredients": "spaghetti bolognese with additional bananas and chocolate",
+          "type": "pasta",
+          "price": "20.00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fullName": "dasda",
+      "address": "dasd",
+      "phoneNumber": "12312",
+      "totalCost": "0.00"
+    },
+    {
+      "id": 12,
+      "fullName": "dasd",
+      "address": "dasda",
+      "phoneNumber": "123123",
+      "totalCost": "47.00",
+      "items": [
+        {
+          "id": 2,
+          "name": "Capriciosa",
+          "ingredients": "puffer fish, old socks, broken dreams",
+          "type": "pizza",
+          "price": "23.50",
+          "available": true
+        },
+        {
+          "id": 2,
+          "name": "Capriciosa",
+          "ingredients": "puffer fish, old socks, broken dreams",
+          "type": "pizza",
+          "price": "23.50",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fullName": "das",
+      "address": "dasda",
+      "phoneNumber": "123123",
+      "totalCost": "0.00"
+    },
+    {
+      "id": 14,
+      "fullName": "asdasd",
+      "address": "dasd",
+      "phoneNumber": "12312",
+      "totalCost": "15.00",
+      "items": [
+        {
+          "id": 7,
+          "name": "Mojito",
+          "ingredients": "mint, lime, rum, brown sugar",
+          "type": "drink",
+          "price": "15.00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "fullName": "asdas",
+      "address": "dasda",
+      "phoneNumber": "134234",
+      "totalCost": "15.00",
+      "items": [
+        {
+          "id": 7,
+          "name": "Mojito",
+          "ingredients": "mint, lime, rum, brown sugar",
+          "type": "drink",
+          "price": "15.00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "fullName": "dasdd",
+      "address": "dasda",
+      "phoneNumber": "12312",
+      "totalCost": "23.50",
+      "items": [
+        {
+          "id": 2,
+          "name": "Capriciosa",
+          "ingredients": "puffer fish, old socks, broken dreams",
+          "type": "pizza",
+          "price": "23.50",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "fullName": "asdsa",
+      "address": "dasd",
+      "phoneNumber": "312312",
+      "totalCost": "0.00"
+    },
+    {
+      "id": 18,
+      "fullName": "dasd",
+      "address": "dasd",
+      "phoneNumber": "12312",
+      "totalCost": "0.00"
+    },
+    {
+      "id": 19,
+      "fullName": "das",
+      "address": "dasd",
+      "phoneNumber": "312312",
+      "totalCost": "0.00"
+    },
+    {
+      "id": 20,
+      "fullName": "dasd",
+      "address": "dsad",
+      "phoneNumber": "123123",
+      "totalCost": "0.00"
+    },
+    {
+      "id": 21,
+      "fullName": "dasda",
+      "address": "dsaasd",
+      "phoneNumber": "123213",
+      "totalCost": "0.00"
+    }
+  ],
+  "users": [
+    {
+      "login": "a",
+      "password": "a"
+    },
+    {
+      "login": "",
+      "password": ""
+    }
+  ]
+}

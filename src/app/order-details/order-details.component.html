@@ -1,0 +1,18 @@
+<div class="details">
+  Order Details:<a [routerLink]="['/admin/orders']">
+    <div id="backArrow">&larr; back</div>
+  </a>
+  <br><br>
+  <div *ngIf='order!==undefined'>
+    <div class="detail">Id: {{order.id}}</div><br>
+    <div class="detail">Full name: {{order.fullName}}</div><br>
+    <div class="detail">Address: {{order.address}}</div><br>
+    <div class="detail">Phone Number: {{order.phoneNumber}}</div><br>
+    <div class="detail">Total cost: {{order.totalCost}}</div><br>
+  </div>
+</div>
+<ul *ngIf='order!==undefined'>
+  <li *ngFor="let item of order.items" class="menu-item">
+    {{item.id}}. {{item.name}}<span class="item-price">{{item.price}}</span><br>
+  </li>
+</ul>

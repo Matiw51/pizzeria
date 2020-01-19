@@ -1,0 +1,130 @@
+$list-background-color: #B3C0C7;
+$capcolor: #0071AD;
+$wrong-color: #CE7B91;
+
+ul {
+  padding-left: 0;
+}
+
+input[type=text] {
+  border-radius: 4px;
+  height: 2.5vh;
+  width: 80%;
+  padding-left: 1vw;
+}
+
+input[type="text"]:focus {
+  outline-width: 0;
+}
+
+button {
+  width: 100%;
+  background-color: $capcolor;
+  padding: 1.5vh 0.8vw;
+  margin-bottom: 2vh;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.5vmax;
+}
+
+button:active {
+  transform: translateY(0.2vh);
+}
+
+button:disabled {
+  color: black;
+  background-color: $wrong-color;
+}
+
+form>button {
+  margin-top: 4vh;
+}
+
+form {
+  margin-left: 5vw;
+}
+
+.input-text {
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.menu-item {
+  padding-top: 2vh;
+  list-style: none;
+  border-style: solid;
+  margin: auto;
+  border-width: 1px;
+  width: 90%;
+  font-size: 3vh;
+  margin-top: 1.5vh;
+  padding-left: 2vmin;
+  padding-bottom: 2.5vh;
+  background-color: $list-background-color;
+  font-style: oblique;
+  line-height: 80%;
+  height: auto;
+  padding-right: 2vw;
+  overflow: hidden;
+}
+
+.item-ingredients {
+  font-size: 2vh;
+}
+
+.float-right {
+  float: right;
+}
+
+.summary {
+  padding-top: 2vh;
+  list-style: none;
+  border-style: solid;
+  margin: auto;
+  border-width: 1px;
+  width: 90%;
+  font-size: 3vh;
+  margin-top: 1.5vh;
+  padding-left: 2vmin;
+  padding-bottom: 4vh;
+  background-color: $list-background-color;
+  font-style: oblique;
+  line-height: 80%;
+  height: auto;
+  padding-right: 2vw;
+  overflow: hidden;
+}
+
+.remove-button {
+  margin-top: 1vh;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1vmin;
+  font-style: normal;
+  background-color: $wrong-color;
+  cursor: pointer;
+}
+
+.remove-button:active {
+  transform: translateY(0.5vh);
+}
+
+input[type="text"].ng-invalid {
+  background-color: #E8D2D5;
+
+}
+
+input[type="text"].ng-valid {
+  background-color: white;
+}
+
+#wrong-number {
+  font-style: normal;
+  color: $wrong-color;
+  font-size: 2vh;
+}
+
+#order-button:active {
+  background-color: green;
+}

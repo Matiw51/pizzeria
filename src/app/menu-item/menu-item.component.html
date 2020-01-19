@@ -1,0 +1,9 @@
+<ul>
+  <div *ngFor="let item of items">
+    <li *ngIf="item.available===true" class="menu-item">
+      {{item.id}}. {{item.name}}<span class="item-price">{{item.price}}</span><br>
+      <span class="item-ingredients">{{item.ingredients}}</span>
+      <img class="cart-image" src="/src/app/cart.png" (click)="addToCart(item.id)">
+    </li>
+  </div>
+</ul>

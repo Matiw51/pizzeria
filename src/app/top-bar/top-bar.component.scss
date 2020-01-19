@@ -1,0 +1,79 @@
+$top-bar-color: #687277;
+$top-bar-height: 4vh;
+$cart-active-color: white;
+
+button {
+  height: 3vh;
+  font-size: 1.5vh;
+  width: 6vmax;
+  margin-top: 0.5vh;
+  float: left;
+  overflow: hidden;
+}
+
+input[type="text"] {
+  border-radius: 90px;
+  margin-right: 5px;
+  float: left;
+  font-size: 1.5vh;
+  height: 2vh;
+  width: 8vmax;
+  margin-top: 0.5vh;
+  padding-left: 1vw;
+}
+
+input[type="text"]:focus {
+  outline-width: 0;
+}
+
+input[type="text"].wrong {
+  background-color: #E8D2D5;
+}
+
+a {
+  color: black;
+}
+
+.active {
+  background-color: $cart-active-color;
+}
+
+.login-panel {
+  margin-left: 9vw;
+}
+
+#top-bar {
+  top: 0;
+  height: $top-bar-height;
+  width: 100%;
+  margin-left: -8px;
+  background-color: $top-bar-color;
+  position: fixed;
+  margin-top: 0;
+  opacity: 0.5;
+}
+
+#top-bar:hover {
+  opacity: 1;
+}
+
+
+#cart-image {
+  height: 80%;
+}
+
+#cart-panel {
+  font-size: 2vh;
+  margin-right: 5vw;
+  height: $top-bar-height;
+  width: auto;
+  float: right;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  border-color: #4B5155;
+}
+
+#cart-panel:hover {
+  cursor: pointer;
+}

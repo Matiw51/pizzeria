@@ -1,0 +1,10 @@
+<ul>
+  <div *ngFor="let item of items">
+    <li class="menu-item" [ngClass]="{unavailable: item.available===false}">
+      {{item.id}}. {{item.name}}<a [routerLink]="[item.id]"><button class="float-right">Details</button></a><br><br>
+    </li>
+  </div>
+  <li *ngFor="let order of orders" class="menu-item">
+    {{order.id}}. {{order.address}}<a [routerLink]="[order.id]"><button class="float-right">Details</button></a><br>
+  </li>
+</ul>

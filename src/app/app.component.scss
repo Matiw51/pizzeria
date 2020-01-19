@@ -1,0 +1,68 @@
+$capcolor: #0071AD;
+$menucolor: #86929A;
+$categoryactivecolor: #364A5D;
+
+a{
+    color: black;
+}
+
+h1{
+    text-align:center;
+    font-size: 6vmin;
+}
+
+.category{
+    display:inline-block;
+    border-right: solid;
+    border-width: 1px;
+    width:33%;
+    height:100%;
+    text-align: center;
+    box-sizing:border-box;
+    padding-top: 0.5vmin;
+}
+
+.menu-text{
+    font-size: 2vmax;
+}
+
+.category-container{
+    background-color: $capcolor;
+    height:4vmax;
+    width: 90%;
+    margin: auto;
+    overflow:hidden;
+}
+
+.menu-container{
+    background-color:$menucolor;
+    width:80%;
+    min-height:100vh;
+    margin:auto;
+    padding: 20px;
+}
+
+#pastas-category{
+    width:34%;
+}
+
+#drinks-category{
+    border-right: 0;
+}
+
+#items-category{
+    width: 50%;
+}
+
+#orders-category{
+    width: 50%;
+    border-right: 0;
+}
+
+#cap{
+    color: $capcolor;
+}
+
+.active{
+    background-color: $categoryactivecolor
+}

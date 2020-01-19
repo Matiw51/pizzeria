@@ -1,0 +1,43 @@
+$list-background-color: #B3C0C7;
+
+ul {
+  padding-left: 0;
+}
+
+.menu-item {
+  padding-top: 2vh;
+  list-style: none;
+  border-style: solid;
+  margin: auto;
+  border-width: 1px;
+  width: 90%;
+  font-size: 3vh;
+  margin-top: 1.5vh;
+  padding-left: 2vmin;
+  padding-bottom: 2.5vh;
+  background-color: $list-background-color;
+  font-style: oblique;
+  line-height: 80%;
+  height: auto;
+  padding-right: 2vw;
+  overflow: hidden;
+}
+
+.item-ingredients {
+  font-size: 2vh;
+}
+
+.item-price {
+  float: right;
+}
+
+.cart-image {
+  height: 3vh;
+  float: right;
+  margin-top: 1vh;
+  cursor: pointer;
+}
+
+.cart-image:active {
+  transform: translateY(0.5vh);
+}

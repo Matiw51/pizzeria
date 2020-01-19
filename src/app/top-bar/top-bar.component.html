@@ -1,0 +1,17 @@
+<div id="top-bar">
+  <div *ngIf=!isAdminLogged()>
+    <div class="login-panel">
+      <form [formGroup]="loginForm" (ngSubmit)="checkIfAdmin()">
+        <input type="text" id="login-input" placeholder="login" formControlName="login">
+        <input type="text" id="password-input" placeholder="password" formControlName="password">
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    <a [routerLink]="['/cart']">
+      <div id="cart-panel" (click)="goToCart()">Your cart<img id="cart-image" src="/src/app/cart.png"></div>
+    </a>
+  </div>
+  <div *ngIf=isAdminLogged() class="login-panel">
+    <a [routerLink]="['/menu', 'pizza']"><button>Logout</button></a>
+  </div>
+</div>

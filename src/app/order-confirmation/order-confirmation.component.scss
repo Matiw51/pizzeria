@@ -1,0 +1,25 @@
+$list-background-color: #B3C0C7;
+
+.summary {
+  padding-top: 2vh;
+  list-style: none;
+  border-style: solid;
+  margin: auto;
+  border-width: 1px;
+  width: 90%;
+  font-size: 3vh;
+  margin-top: 1.5vh;
+  padding-left: 2vmin;
+  padding-bottom: 4vh;
+  background-color: $list-background-color;
+  font-style: oblique;
+  line-height: 80%;
+  height: auto;
+  padding-right: 2vw;
+  overflow: hidden;
+}
+
+#backArrow {
+  float: right;
+  cursor: pointer;
+}

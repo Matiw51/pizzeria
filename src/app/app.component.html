@@ -1,0 +1,21 @@
+<app-top-bar></app-top-bar>
+<h1 *ngIf=!isAdminLogged()>
+  Welcome to <span id="cap">{{ titlePart1 }}</span>{{titlePart2}}!
+</h1>
+<h1 *ngIf=isAdminLogged()>
+    <span id="cap">{{ titlePart1 }}</span>{{titlePart2}} control station
+</h1>
+<div class="menu-container">
+  <div class="category-container" *ngIf=!isAdminLogged()>
+    <a [routerLink]="['/menu', 'pizza']"><div class="category" id="pizzas-category"><span class="menu-text">Pizza</span></div></a>
+    <a [routerLink]="['/menu', 'pasta']"><div class="category" id="pastas-category"><span class="menu-text">Pasta</span></div></a>
+    <a [routerLink]="['/menu', 'drink']"><div class="category" id="drinks-category"><span class="menu-text">Drinks</span></div></a>
+  </div>
+
+  <div class="category-container" *ngIf=isAdminLogged()>
+      <a [routerLink]="['/admin', 'items']"><div class="category" id="items-category"><span class="menu-text">Items</span></div></a>
+      <a [routerLink]="['/admin', 'orders']"><div class="category" id="orders-category"><span class="menu-text">Orders</span></div></a>
+  </div>
+  <router-outlet></router-outlet>
+</div>
+  

@@ -1,0 +1,26 @@
+<div class="summary">
+  Order Details<br><br>
+  <form [formGroup]="orderForm" (ngSubmit)="onSubmit()">
+    <div class="input-text">Full name:</div>
+    <input type="text" name="fullname" placeholder="Your name" formControlName="fullName">
+    <br>
+    <div class="input-text">Address:</div>
+    <input type="text" name="address" placeholder="Your address" formControlName="address">
+    <br>
+    <div class="input-text">Phone Number:</div>
+    <input type="text" name="phonenumber" placeholder="Your phone number" formControlName="phoneNumber"><br>
+    <span *ngIf="orderForm?.get('phoneNumber')?.hasError('forbiddenNumber')" id="wrong-number">Phone number should
+      include only digits</span>
+    <br><br>
+    <button id="order-button" type="submit" [disabled]="!orderForm.valid">Order</button>
+    <span class="float-right">Total cost: {{cost}}</span>
+  </form>
+</div>
+
+<ul>
+  <li *ngFor="let item of items" class="menu-item">
+    {{item.id}}. {{item.name}}<span class="float-right">{{item.price}}</span><br>
+    <span class="item-ingredients">{{item.ingredients}}</span>
+    <span class="float-right remove-button" (click)='removeItemFromCart(item.id)'>remove</span>
+  </li>
+</ul>

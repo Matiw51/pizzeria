@@ -1,0 +1,16 @@
+<div class="details">
+  Item Details:<a [routerLink]="['/admin/items']">
+    <div id="backArrow">&larr; back</div>
+  </a>
+  <br><br>
+  <div *ngIf='item!==undefined'>
+    <div class="detail">Id: {{item.id}}</div><br>
+    <div class="detail">Name: {{item.name}}</div><br>
+    <div class="detail">Ingredients: {{item.ingredients}}</div><br>
+    <div class="detail">Type: {{item.type}}</div><br>
+    <div class="detail">Price: {{item.price}}</div><br>
+    <div class="detail">Available: {{item.available}}</div><br>
+    <button (click)="setAvailable(item.id)">Set available</button>
+    <button (click)="setUnavailable(item.id)">Set unavailable</button>
+  </div>
+</div>
